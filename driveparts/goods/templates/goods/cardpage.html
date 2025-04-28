@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{goods.name}}</h1>
+    {% if goods.photo %}
+        <img src="{{goods.photo.url}}" class="card-img-top" alt="{{goods.name}}">
+
+ 
+    {% endif %}
+{% endblock content %}

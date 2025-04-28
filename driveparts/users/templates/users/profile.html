@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Профиль</h1>
+
+
+<form method="POST" enctype="multipart/form-data" novalidate >
+    {% csrf_token %}
+    {% if user.photo %}
+        <p><img src="{{ user.photo.url }}" width="100" alt="#"></p>
+    {% endif %}
+    {{ form.as_p }}
+    <p><button type="submit">Сохранить</button></p>
+</form>
+
+{% if not perms.users.social_auth %}
+<hr>
+<p><a href="{% url 'users:password_change' %}">Сменить пароль</a></p>
+    
+{% endif %}
+{% if perms.goods.change_goods %}
+    
+<p> {{ test }}</p>
+{% endif %}
+{% endblock content %}

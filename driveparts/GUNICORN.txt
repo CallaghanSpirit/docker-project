@@ -1,0 +1,13 @@
+Конфиг для настройки gunicorn в django
+
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/var/www/myproject
+ExecStart=/var/www/myproject/djvenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/var/www/myproject/candystore.sock candystore.wsgi:application
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
