@@ -1,5 +1,70 @@
 [
 {
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-04-24T09:32:22.689Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Авто товары",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-04-24T09:32:41.108Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Компрессор воздушный АГРЕССОР, 30 л./мин. AGR-30",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-04-24T09:33:48.825Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Компрессор воздушный АГРЕССОР, 30 л./мин. AGR-30",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-04-27T15:37:07.154Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Компрессор воздушный АГРЕССОР, 30 л./мин. AGR-30",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-04-27T15:37:07.154Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Компрессор воздушный АГРЕССОР, 30 л./мин. AGR-30",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -932,11 +997,83 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "amfvyin2ok2ekgobuidsh6jv60z4ohxg",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyELdAt49N5vIAtspGogKe3J-O-2SQ96m8x7M28RaFtL2DovYc7iKpS4_HaR0pPrAfKD6r3J1Oq6zFEeijxpl1PL_Lqd7t9BoV72tVcugsYENgN5AnLKIINnPSgymZ1DTqOhUXllPSOhhT1bNFoPGLX4fAG_dzZ5:1u7u5T:z9sSPFBScX155p-2AM5kKjJIHMG-E8t7T1TxFdIhe7U",
+    "expire_date": "2025-05-08T10:45:47.614Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mqjtsxbuhozsrmu7uzrbo7l76t5zovyi",
+  "fields": {
+    "session_data": ".eJwlyc0KAiEQAOB3mbMEWhLrLejYZVmCIEJkdjZkxRF_uojvXtB3_ToURu-CQ-QWqy3VVSpgOsyXJdVHm9PtHrcr7mCeHVJmpPJ7CPz2EQSsrjowsYUgIO1IFnkl-6HsN0_5P0PI80kfp0kredBaS6VeY3wBtswqCA:1u7W9B:asgzKU5gtvgY9suuKcRBUx9AM8BFuvWbWwm6i1uBYlI",
+    "expire_date": "2025-05-07T09:12:01.560Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t24chc2w6sp8ckonjcqkyckapbdb05ol",
+  "fields": {
+    "session_data": ".eJwlydEKwiAUANB_uc8SrtIx_6P2ECHibsMSr3hdLMR_L-i8ngZMPrjovKctVcvVVWQwDWi_hudl_ew8cZ5mBebWIBfyyL-HSGtIIGBx1YFJW4wC8suj9bSgfWMJj4DlP10M41lpKaXWh1GdjnJQ996_9Y0qYw:1u8MJm:CGePzzJ5fs7twY_j8Ff5g1d5wGMiBTZiF93gpAe3Wss",
+    "expire_date": "2025-05-09T16:54:26.762Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vz2by6jp20p5hwdy1r258hm0n5xmctjt",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyELdAt49N5vIAtspGogKe3J-O-2SQ96m8x7M28RaFtL2DovYc7iKpS4_HaR0pPrAfKD6r3J1Oq6zFEeijxpl1PL_Lqd7t9BoV72tVcugsYENgN5AnLKIINnPSgymZ1DTqOhUXllPSOhhT1bNFoPGLX4fAG_dzZ5:1u6nNc:BwacKDBDn8DMaFikyNVyNlLcZPZ87W1mZhaD2wR_tvw",
+    "expire_date": "2025-05-05T09:23:56.263Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wqtb5c95uv24bdfkhjrbdqffxpugbtb0",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyELdAt49N5vIAtspGogKe3J-O-2SQ96m8x7M28RaFtL2DovYc7iKpS4_HaR0pPrAfKD6r3J1Oq6zFEeijxpl1PL_Lqd7t9BoV72tVcugsYENgN5AnLKIINnPSgymZ1DTqOhUXllPSOhhT1bNFoPGLX4fAG_dzZ5:1u93l3:UEZFWNWTr-2uDBboRx-IHfwq6XoWi25IqHaNREpHTm0",
+    "expire_date": "2025-05-11T15:17:29.460Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zm58clmfe8fkd6xwbv4z84qf1u9y9t1l",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyELdAt49N5vIAtspGogKe3J-O-2SQ96m8x7M28RaFtL2DovYc7iKpS4_HaR0pPrAfKD6r3J1Oq6zFEeijxpl1PL_Lqd7t9BoV72tVcugsYENgN5AnLKIINnPSgymZ1DTqOhUXllPSOhhT1bNFoPGLX4fAG_dzZ5:1u90dD:rGd7A-iy6M1a28Q8VurkkeaTxY2QLj3MX5fWvpG3Hi0",
+    "expire_date": "2025-05-11T11:57:11.631Z"
+  }
+},
+{
+  "model": "goods.goods",
+  "pk": 4,
+  "fields": {
+    "name": "Оплётка руля",
+    "slug": "opletka-rulja",
+    "photo": "images/2025/04/27/Оплётка_руля.jpeg",
+    "desc": "",
+    "cats": 1,
+    "status": true,
+    "time_create": "2025-04-27T15:35:41.514Z",
+    "time_update": "2025-04-27T15:35:41.514Z",
+    "author": 1,
+    "tags": []
+  }
+},
+{
+  "model": "goods.category",
+  "pk": 1,
+  "fields": {
+    "name": "Авто товары",
+    "slug": "avto-tovary"
+  }
+},
+{
   "model": "users.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$870000$WhzS71GePSG9Zw58iEDzpb$zuZnGBS90yLNG18kBt9JJ3deOswKXK3FETL3UFdZtDc=",
-    "last_login": "2025-03-10T14:49:38.367Z",
+    "last_login": "2025-04-27T15:17:29.456Z",
     "is_superuser": true,
     "username": "root",
     "first_name": "",
@@ -949,6 +1086,136 @@
     "date_birth": null,
     "groups": [],
     "user_permissions": []
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 1,
+  "fields": {
+    "challenge": "PABV",
+    "response": "pabv",
+    "hashkey": "7b40d816c71caed8936b686a5e3dc6569c6d0841",
+    "expiration": "2025-04-21T09:30:07.073Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 2,
+  "fields": {
+    "challenge": "PRHZ",
+    "response": "prhz",
+    "hashkey": "00f96a3545f9e3b00724fc5fce175f95682088a3",
+    "expiration": "2025-04-21T09:44:45.222Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 3,
+  "fields": {
+    "challenge": "STZX",
+    "response": "stzx",
+    "hashkey": "dc65bad64a288a6b4d1b8f8bd5ea868607b943c7",
+    "expiration": "2025-04-21T09:48:48.858Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 4,
+  "fields": {
+    "challenge": "LCLH",
+    "response": "lclh",
+    "hashkey": "491b0ea85590cc32a35b4a29514f9ac8764a0a76",
+    "expiration": "2025-04-21T12:56:47.618Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 5,
+  "fields": {
+    "challenge": "BGVB",
+    "response": "bgvb",
+    "hashkey": "26c206c8fcea0a72e964afa8c9747175712b81ac",
+    "expiration": "2025-04-21T13:06:22.590Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 6,
+  "fields": {
+    "challenge": "OWPE",
+    "response": "owpe",
+    "hashkey": "534c17efbbbe30d36dc7aa02f192c2fa6ab83519",
+    "expiration": "2025-04-22T14:22:17.973Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 7,
+  "fields": {
+    "challenge": "ILIE",
+    "response": "ilie",
+    "hashkey": "37b5a5e164c5089dd518867c687855e754ff7eaf",
+    "expiration": "2025-04-22T14:25:28.108Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 8,
+  "fields": {
+    "challenge": "ILML",
+    "response": "ilml",
+    "hashkey": "cd64857bd60117b6a65616884e1ff45781544afc",
+    "expiration": "2025-04-22T14:25:36.736Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 9,
+  "fields": {
+    "challenge": "TJUZ",
+    "response": "tjuz",
+    "hashkey": "1dbf245f1a9654dd97564bcb0f4cecdcff075d26",
+    "expiration": "2025-04-22T14:25:47.482Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 10,
+  "fields": {
+    "challenge": "SOFB",
+    "response": "sofb",
+    "hashkey": "f5bc35ed76693c43ab5fe3bc5d9f5610b3cab549",
+    "expiration": "2025-04-22T14:41:51.310Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 11,
+  "fields": {
+    "challenge": "RGIP",
+    "response": "rgip",
+    "hashkey": "da51dd9f72e19bab8a11ed2a2e8329d5600d6ee5",
+    "expiration": "2025-04-24T08:43:06.700Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 12,
+  "fields": {
+    "challenge": "AOCF",
+    "response": "aocf",
+    "hashkey": "e599db034c118d53515e6aeab02c9231b854ea01",
+    "expiration": "2025-04-24T08:43:11.134Z"
+  }
+},
+{
+  "model": "captcha.captchastore",
+  "pk": 13,
+  "fields": {
+    "challenge": "BNGN",
+    "response": "bngn",
+    "hashkey": "38e355008f2c8d8215dcc4899cfdc93709d1b3cf",
+    "expiration": "2025-04-24T10:45:45.158Z"
   }
 }
 ]
