@@ -2,4 +2,4 @@
 
 test = 'ТЕСТ'
 class DataMixin:
-   paginate_by = 2
+   paginate_by = 0

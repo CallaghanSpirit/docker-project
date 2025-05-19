@@ -65,6 +65,71 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-05-19T12:58:00.223Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Домкрат_винтовой",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-05-19T12:58:36.330Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Компрессор",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-05-19T12:58:52.513Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Карбюратор_PZ30",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-05-19T14:04:53.276Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Канистра топливная, сталь, 20л.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-05-19T14:16:01.204Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Лампа светодиодная X2-H7",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -990,6 +1055,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "3rewe4je6c6ivyfkw5rly8xqpwv4fa89",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyELdAt49N5vIAtspGogKe3J-O-2SQ96m8x7M28RaFtL2DovYc7iKpS4_HaR0pPrAfKD6r3J1Oq6zFEeijxpl1PL_Lqd7t9BoV72tVcugsYENgN5AnLKIINnPSgymZ1DTqOhUXllPSOhhT1bNFoPGLX4fAG_dzZ5:1uGyOP:L5RNuATl7Ok4R6k5Ici2lRMi2C2QDixBSMsRGgA893Y",
+    "expire_date": "2025-06-02T11:10:49.750Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "7mg893lh9yvx25rmdqexvo5jz4k41now",
   "fields": {
     "session_data": ".eJxVjMEOwiAQRP-FsyELdAt49N5vIAtspGogKe3J-O-2SQ96m8x7M28RaFtL2DovYc7iKpS4_HaR0pPrAfKD6r3J1Oq6zFEeijxpl1PL_Lqd7t9BoV72tVcugsYENgN5AnLKIINnPSgymZ1DTqOhUXllPSOhhT1bNFoPGLX4fAG_dzZ5:1treRm:aZZcXvOjNPdPgAvwynLYA_EenTdPnISYzrUUyXuo32c",
@@ -1061,6 +1134,86 @@
   }
 },
 {
+  "model": "goods.goods",
+  "pk": 5,
+  "fields": {
+    "name": "Домкрат_винтовой",
+    "slug": "domkrat_vintovoj",
+    "photo": "images/2025/05/19/Домкрат_винтовой.jpeg",
+    "desc": "",
+    "cats": 1,
+    "status": true,
+    "time_create": "2025-05-19T12:58:00.215Z",
+    "time_update": "2025-05-19T12:58:00.215Z",
+    "author": 1,
+    "tags": []
+  }
+},
+{
+  "model": "goods.goods",
+  "pk": 6,
+  "fields": {
+    "name": "Компрессор",
+    "slug": "kompressor",
+    "photo": "images/2025/05/19/Компрессор.jpeg",
+    "desc": "",
+    "cats": 1,
+    "status": true,
+    "time_create": "2025-05-19T12:58:36.325Z",
+    "time_update": "2025-05-19T12:58:36.325Z",
+    "author": 1,
+    "tags": []
+  }
+},
+{
+  "model": "goods.goods",
+  "pk": 7,
+  "fields": {
+    "name": "Карбюратор_PZ30",
+    "slug": "karbjurator_pz30",
+    "photo": "images/2025/05/19/Карбюратор_PZ30.jpeg",
+    "desc": "",
+    "cats": 1,
+    "status": true,
+    "time_create": "2025-05-19T12:58:52.509Z",
+    "time_update": "2025-05-19T12:58:52.509Z",
+    "author": 1,
+    "tags": []
+  }
+},
+{
+  "model": "goods.goods",
+  "pk": 8,
+  "fields": {
+    "name": "Канистра топливная, сталь, 20л.",
+    "slug": "kanistra-toplivnaja-stal-20l",
+    "photo": "images/2025/05/19/kanistratoplivnayastal20lautoprofikan10020l.jpeg",
+    "desc": "",
+    "cats": 1,
+    "status": true,
+    "time_create": "2025-05-19T14:04:53.270Z",
+    "time_update": "2025-05-19T14:04:53.270Z",
+    "author": 1,
+    "tags": []
+  }
+},
+{
+  "model": "goods.goods",
+  "pk": 9,
+  "fields": {
+    "name": "Лампа светодиодная X2-H7",
+    "slug": "lampa-svetodiodnaja-x2-h7",
+    "photo": "images/2025/05/19/696336c1_67ac_11ec_b774_00155d013f04_1_20230505115727.jpeg",
+    "desc": "",
+    "cats": 1,
+    "status": true,
+    "time_create": "2025-05-19T14:16:01.160Z",
+    "time_update": "2025-05-19T14:16:01.160Z",
+    "author": 1,
+    "tags": []
+  }
+},
+{
   "model": "goods.category",
   "pk": 1,
   "fields": {
@@ -1073,7 +1226,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$870000$WhzS71GePSG9Zw58iEDzpb$zuZnGBS90yLNG18kBt9JJ3deOswKXK3FETL3UFdZtDc=",
-    "last_login": "2025-04-27T15:17:29.456Z",
+    "last_login": "2025-05-19T11:10:49.743Z",
     "is_superuser": true,
     "username": "root",
     "first_name": "",

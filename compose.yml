@@ -63,14 +63,14 @@ services:
       - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
     networks:
       - dbnet
-  certbot:
-    image: certbot/certbot
-    volumes:
-      - ./certbot/conf:/etc/letsencrypt
-      - ./certbot/www:/var/www/certbot
-    command: certonly --webroot --webroot-path=/var/www/certbot --email tsoloevalan@gmail.com --agree-tos -d drive-parts-store.ru  --keep-until-expiring
-    depends_on:
-      - nginx
+  # certbot:
+  #   image: certbot/certbot
+  #   volumes:
+  #     - ./certbot/conf:/etc/letsencrypt
+  #     - ./certbot/www:/var/www/certbot
+  #   command: certonly --webroot --webroot-path=/var/www/certbot --email tsoloevalan@gmail.com --agree-tos -d drive-parts-store.ru  --keep-until-expiring
+  #   depends_on:
+  #     - nginx
       
 
 networks:
