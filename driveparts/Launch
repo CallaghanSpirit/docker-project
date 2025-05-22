@@ -1,0 +1,2 @@
+docker compose up --build #Запуск Docker compose
+docker system prune -a - Очистка всего
